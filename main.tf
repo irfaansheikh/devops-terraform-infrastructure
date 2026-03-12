@@ -15,3 +15,14 @@ resource "aws_security_group" "web_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
+resource "aws_instance" "web_server" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = var.instance_type
+
+  security_groups = [aws_security_group.web_sg.name]
+
+  tags = {
+    Name = "terraform-devops-server"
+  }
+}
