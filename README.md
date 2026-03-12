@@ -1,4 +1,23 @@
-# devops-project-2-terraform
+# devops-terraform-infrastructure
 
-Terraform
+Devops Terraform Infrastructure
+
+
+Architecture diagram
+
+
+Setup instructions
+
+
+
+Screenshots
+
+
+
+Tools used
+
+
+
+Explanation of workflow
+
 
